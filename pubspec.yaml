@@ -1,0 +1,60 @@
+
+name: hope
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  cloud_firestore: ^4.3.1
+  collection: ^1.15.0
+  # tflite: ^1.1.2
+  tflite_flutter: ^0.9.4
+  # tflite_flutter_helper_plus: ^0.0.2
+  tflite_flutter_helper:
+    # path:
+    #   ../../
+  logger: ^1.0.0
+  image: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.16
+  camera: ^0.10.4
+  image_picker: ^0.8.4+11
+
+
+flutter_native_splash:
+    color: "#f3e3e3"
+    image: images/logo.png
+flutter:
+
+  uses-material-design: true
+  assets:
+     - assets/
+     - assets/image/
+    
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
